@@ -153,7 +153,7 @@
 /* #region Activities */
 
     .activities {
-        padding: 1.5rem 0;
+        padding: 3rem 0;
     }
 
     .card {
@@ -198,6 +198,63 @@
     }
 
 /* #endregion Activities */
+
+
+/* #region planning */
+
+    .planning {
+        background-color: var(--rl-lightpurple);
+        padding: 3rem 0;
+    }
+
+    .strat-plan-card {
+        width: 100%;
+        color: var(--rl-white);
+        padding: 1.5rem;
+    }
+
+    .strat-plan-card h2 {
+        padding: 1.5rem 0;
+    }
+
+    .strat-plan-card p {
+        line-height: 1.5rem;
+    }
+
+    .strat-plan-card img {
+        width: 100%;
+    }
+
+    .app-dev-card {
+        background-color: var(--rl-white);
+        border-radius: 40px;
+        padding: 1.5rem;
+        text-align: center;
+    }
+
+    .app-dev-card h2 {
+        padding: 1.5rem 0;
+    }
+
+    .app-dev-card p {
+        line-height: 1.5rem;
+    }
+
+    .app-dev-card img {
+        width: 100%;
+    }
+
+    .app-dev-card .arrow {
+        background-color: var(--rl-lightpurple);
+        padding: 1.25rem 1.5rem;
+        border-radius: 50%;
+        margin-top: 1rem;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+
+/* #endregion planning */
 
 
 
@@ -245,6 +302,10 @@
 
     .col-5-lg {
         width: calc(100% /12 *5);
+    }
+
+    .col-6-lg {
+        width: calc(100% /12 *6);
     }
 
     .col-7-lg {
