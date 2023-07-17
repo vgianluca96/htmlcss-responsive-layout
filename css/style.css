@@ -9,6 +9,7 @@
 
     :root {
         --rl-white: white;
+        --rl-black: black;
         --rl-blue: #0084fd;
         --rl-lightblue: #b5ddff;
         --rl-lightpurple: #9792e4;
@@ -95,8 +96,18 @@
         list-style: none;
     }
 
-    header li {
+    header a {
+        text-decoration: none;
+        color: var(--rl-white);
         margin: 0 .75rem;
+    }
+
+    header a.getstarted {
+        text-decoration: none;
+        color: var(--rl-black);
+        background-color: var(--rl-white);
+        padding: 4px 8px;
+        border-radius: 10px;
     }
 
 /* #endregion Header */
