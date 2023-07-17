@@ -241,7 +241,7 @@
     }
 
     .app-dev-card img {
-        width: 100%;
+        width: 80%;
     }
 
     .app-dev-card .arrow {
@@ -319,5 +319,17 @@
     .card img {
         width: 100%;
     }
+
+    /*.app-dev-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .app-dev-card img {
+        width: 200px;
+    }*/
 
 }
