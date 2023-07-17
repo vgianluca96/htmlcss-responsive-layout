@@ -8,6 +8,7 @@
     }
 
     :root {
+        --rl-white: white;
         --rl-blue: #0084fd;
         --rl-lightblue: #b5ddff;
         --rl-lightpurple: #9792e4;
@@ -16,8 +17,14 @@
         --rl-orange: #fdc15f;
     }
 
+    body {
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+
     header {
         background-color: var(--rl-blue);
+        color: var(--rl-white);
     }
 
     footer {
@@ -29,6 +36,31 @@
     }
 
 /* #endregion Common */
+
+/* #region Utilities */
+
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .py-1 {
+        padding: 1rem 0;
+    }
+
+    .d-flex {
+        display: flex;
+    }
+
+    .jc-sb {
+        justify-content: space-between;
+    }
+
+    .ai-c {
+        align-items: center;
+    }
+
+/* #endregion Utilities */
 
 
 /* #region Debug */
@@ -44,11 +76,30 @@
 /* #endregion Debug */
 
 
+/* #region Header */
+
+    header img {
+        width: 80px;
+        vertical-align: middle;
+    }
+
+    header i {
+        font-size: 20px;
+    }
+
+/* #endregion Header */
+
+
 
 @media screen and (min-width: 768px) {
 
     main {
         background-color: purple;
+    }
+
+    .container-md {
+        width: 90%;
+        margin: auto;
     }
     
 }
@@ -57,6 +108,12 @@
 
     main {
         background-color: yellow;
+    }
+
+    .container-bg {
+        max-width: 1400px;
+        width: 60%;
+        margin: auto;
     }
     
 }
