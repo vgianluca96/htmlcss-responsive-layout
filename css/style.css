@@ -1,6 +1,45 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+/* #region Common */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    :root {
+        --rl-blue: #0084fd;
+        --rl-lightblue: #b5ddff;
+        --rl-lightpurple: #9792e4;
+        --rl-grey: #5a6e7f;
+        --rl-darkgrey: #333333;
+        --rl-orange: #fdc15f;
+    }
+
+    header {
+        background-color: var(--rl-blue);
+    }
+
+    footer {
+        background-color: var(--rl-darkgrey);
+    }
+
+    main {
+        background-color: lightgreen;
+    }
+
+/* #endregion Common */
+
+
+/* #region Debug */
+
+    .debug100 {
+        height: 100px;
+    }
+
+    .debug300 {
+        height: 300px;
+    }
+
+/* #endregion Debug */
 
