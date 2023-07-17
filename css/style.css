@@ -60,6 +60,10 @@
         align-items: center;
     }
 
+    .d-none {
+        display: none;
+    }
+
 /* #endregion Utilities */
 
 
@@ -87,6 +91,14 @@
         font-size: 20px;
     }
 
+    header ul {
+        list-style: none;
+    }
+
+    header li {
+        margin: 0 .75rem;
+    }
+
 /* #endregion Header */
 
 
@@ -110,10 +122,18 @@
         background-color: yellow;
     }
 
-    .container-bg {
+    .container-lg {
         max-width: 1400px;
         width: 60%;
         margin: auto;
+    }
+
+    .d-block-lg {
+        display: block;
+    }
+
+    .d-none-lg {
+        display: none;
     }
     
 }
