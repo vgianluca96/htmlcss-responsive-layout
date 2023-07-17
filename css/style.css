@@ -62,6 +62,10 @@
         align-items: center;
     }
 
+    .ai-fe {
+        align-items: flex-end;
+    }
+
     .fd-col {
         flex-direction: column;
     }
@@ -239,12 +243,12 @@
         display: none;
     }
 
-    .col-4-lg {
-        width: calc(100% /12 *4);
+    .col-5-lg {
+        width: calc(100% /12 *5);
     }
 
-    .col-8-lg {
-        width: calc(100% /12 * 8);
+    .col-7-lg {
+        width: calc(100% /12 * 7);
     }
 
     .fd-row-lg {
