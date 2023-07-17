@@ -94,6 +94,10 @@
         width: 100%;
     }
 
+    .ta-c {
+        text-align: center;
+    }
+
 /* #endregion Utilities */
 
 
@@ -152,22 +156,24 @@
         background-color: var(--rl-lightblue);
         border-radius: 40px;
         padding: 2rem;
+        padding-bottom: 0;
+        margin: 1rem 0;
     }
 
     .card h2 {
         color: var(--rl-blue);
+        padding: 1.5rem 0;
     }
 
     .card p {
         color: var(--rl-grey);
-        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
         line-height: 1.5rem;
         font-weight: bold;
     }
 
     .card a {
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 1.5rem;
         width: 210px;
         padding: 10px 0;
         border-radius: 20px;
@@ -178,11 +184,14 @@
     }
 
     .card img {
-        width: 80%;
+        width: 100%;
+        max-width: 400px;
     }
 
-
-
+    .card i.fa-file-code, .card i.fa-compass-drafting, .card i.fa-laptop-code, .card i.fa-bullhorn {
+        font-size: 72px;
+        color: var(--rl-blue);
+    }
 
 /* #endregion Activities */
 
@@ -195,26 +204,26 @@
         margin: auto;
     }
 
-    .col-3-md {
-        width: calc(100% /12 *3);
+    .col-38-md {
+        width: calc(100% /12 *3.8);
     }
 
     .col-4-md {
         width: calc(100% /12 *4);
     }
 
-    .col-7-md {
-        width: calc(100% /12 *7);
+    .col-79-md {
+        width: calc(100% /12 *7.9);
+    }
+
+    .card img {
+        width: 65%;
     }
 
     
 }
 
 @media screen and (min-width: 1200px) {
-
-    main {
-        background-color: yellow;
-    }
 
     .container-lg {
         max-width: 1400px;
@@ -229,5 +238,21 @@
     .d-none-lg {
         display: none;
     }
-    
+
+    .col-4-lg {
+        width: calc(100% /12 *4);
+    }
+
+    .col-8-lg {
+        width: calc(100% /12 * 8);
+    }
+
+    .fd-row-lg {
+        flex-direction: row;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
 }
