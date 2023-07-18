@@ -383,7 +383,7 @@
 
     .linkedin {
         color: var(--rl-lightpurple);
-        padding: 0 1rem;
+        padding: 1rem;
     }
 
     .linkedin-img {
@@ -423,6 +423,19 @@
 /* #endregion about */
 
 
+/* #region get started */
+
+    .get-started {
+        background-color: var(--rl-lightpurple);
+        padding: 3rem 0;;
+    }
+
+
+
+
+/* #endregion get started */
+
+
 @media screen and (min-width: 768px) {
 
     .container-md {
@@ -452,6 +465,10 @@
 
     .col-79-md {
         width: calc(100% /12 *7.9);
+    }
+
+    .col-10-md {
+        width: calc(100% /12 *10);
     }
 
     .col-12-md {
