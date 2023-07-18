@@ -454,7 +454,7 @@
     }
 
     .beta {
-        padding: 1.5rem 0;
+        padding: 1.5rem 20%;
     }
 
     .get-started-cont .get-started-link {
@@ -478,10 +478,14 @@
         color: var(--rl-white);
     }
 
-
-
-
 /* #endregion get started */
+
+
+/* #region footer */
+
+
+
+/* #endregion footer */
 
 
 @media screen and (min-width: 768px) {
