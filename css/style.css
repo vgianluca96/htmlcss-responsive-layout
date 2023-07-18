@@ -208,7 +208,6 @@
     }
 
     .strat-plan-card {
-        width: 100%;
         color: var(--rl-white);
         padding: 1.5rem;
     }
@@ -253,8 +252,57 @@
         display: inline-block;
     }
 
-
 /* #endregion planning */
+
+
+/* #region testimonial */
+
+    .testimonials {
+        padding: 3rem 0;
+    }
+
+    .testimonial-intro {
+        padding-bottom: 1rem;
+        text-align: center;
+      
+    }
+
+    .testimonial-intro h2 {
+        font-size: 24px;
+        color: var(--rl-lightpurple);
+        padding: 1rem 0;
+     }
+
+     .testimonial-intro div {
+        line-height: 1.5rem;
+     }
+
+    .testimonial-card {
+        background-color: var(--rl-lightpurple);
+        border-radius: 40px;
+        padding: 2rem 2.5rem;
+        color: var(--rl-white);
+    }
+
+    .testimonial-img img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+    }
+
+    .testimonial-quote {
+        padding: 1rem 0;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+
+    .testimonial-name {
+        font-weight: bold;
+     }
+
+
+/* #endregion testimonial */
 
 
 
