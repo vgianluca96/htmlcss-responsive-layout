@@ -367,19 +367,16 @@
 
 /* #region about */
 
-    .about {
-        padding: 3rem 0;
-    }
-
     .about-us {
         padding: 0 1rem;
     }
 
-    .about-us h2 {
+    .about-us .about-title {
         color: var(--rl-lightpurple);
+        font-size: 20px;
     }
 
-    .about-us p {
+    .about-us .about-descr {
         padding: 1rem 0;
         line-height: 1.5rem;
     }
@@ -429,7 +426,6 @@
 
     .get-started-sec {
         background-color: var(--rl-lightpurple);
-        padding: 3rem 0;
     }
 
     .get-started-cont {
@@ -445,11 +441,13 @@
     .pricing {
         font-weight: bold;
         padding: 1rem 0;
+        font-size: 20px;
     }
 
     .free {
         color: var(--rl-orange);
         font-weight: bold;
+        font-size: 30px;
     }
 
     .beta {
@@ -555,6 +553,14 @@
 
     .fs-20-md {
         font-size: 20px;
+    }
+
+    .fs-28-md {
+        font-size: 28px;
+    }
+
+    .fs-36-md {
+        font-size: 36px;
     }
     
 }
