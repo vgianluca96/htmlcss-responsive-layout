@@ -212,7 +212,6 @@
 
     .planning {
         background-color: var(--rl-lightpurple);
-        padding: 3rem 0;
     }
 
     .strat-plan-card {
@@ -220,11 +219,13 @@
         padding: 1.5rem;
     }
 
-    .strat-plan-card h2 {
-        padding: 1.5rem 0;
+    .strat-plan-card .strat-title {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        font-size: 20px;
     }
 
-    .strat-plan-card p {
+    .strat-plan-card .strat-descr {
         line-height: 1.5rem;
     }
 
@@ -239,16 +240,16 @@
         text-align: center;
     }
 
-    .app-dev-card h2 {
-        padding: 1.5rem 0;
+    .app-dev-card .dev-title {
+        padding: 1rem 0;
     }
 
-    .app-dev-card p {
+    .app-dev-card .dev-descr {
         line-height: 1.5rem;
     }
 
     .app-dev-card img {
-        width: 80%;
+        width: 60%;
     }
 
     .app-dev-card .arrow {
