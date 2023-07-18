@@ -483,6 +483,24 @@
 
 /* #region footer */
 
+    footer {
+        color: var(--rl-white);
+        padding: 3rem 0;
+        text-align: center;
+    }
+
+    footer div {
+        padding: 0 10%;
+    }
+
+    footer a {
+        color: var(--rl-lightpurple);
+    }
+
+    .footer-lorem {
+        padding-bottom: 1rem;
+    }
+
 
 
 /* #endregion footer */
