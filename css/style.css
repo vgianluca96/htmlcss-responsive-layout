@@ -264,7 +264,6 @@
     .testimonial-intro {
         padding-bottom: 1rem;
         text-align: center;
-      
     }
 
     .testimonial-intro h2 {
@@ -303,10 +302,35 @@
 
     .testimonial-name {
         font-weight: bold;
+        padding-top: .75rem;
      }
 
-
 /* #endregion testimonial */
+
+
+/* #region benefits */
+
+    .benefits {
+        padding: 3rem 0;
+        background-color: var(--rl-lightpurple);
+    }
+
+    .benefit-intro {
+        padding-bottom: 1rem;
+    }
+
+    .benefit-col {
+        padding: 1rem 0;
+    }
+
+    .benefit-card {
+        background-color: var(--rl-white);
+        border-radius: 40px;
+        padding: 1rem;
+    }
+
+
+/* #endregion benefits */
 
 
 
@@ -325,12 +349,24 @@
         width: calc(100% /12 *4);
     }
 
+    .col-7-md {
+        width: calc(100% /12 *7);
+    }
+
     .col-79-md {
         width: calc(100% /12 *7.9);
     }
 
     .card img {
         width: 65%;
+    }
+
+    .fd-row-md {
+        flex-direction: row;
+    }
+
+    .ta-l-md {
+        text-align: left;
     }
 
     
@@ -371,17 +407,5 @@
     .card img {
         width: 100%;
     }
-
-    /*.app-dev-card {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        height: fit-content;
-    }
-
-    .app-dev-card img {
-        width: 200px;
-    }*/
 
 }
