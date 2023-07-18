@@ -317,21 +317,49 @@
 
     .benefit-intro {
         padding-bottom: 1rem;
+        color: var(--rl-white);
+        text-align: center;
     }
 
     .benefit-col {
-        padding: 1rem 0;
+        padding: 1rem;
     }
 
     .benefit-card {
         background-color: var(--rl-white);
-        border-radius: 40px;
-        padding: 1rem;
+        border-radius: 20px;
+        padding: 2rem;
+    }
+
+    .benefit-card .number {
+        color: var(--rl-lightpurple);
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .benefit-card .benefit-title {
+        color: var(--rl-lightpurple);
+        font-size: 24px;
+        font-weight: bold;
+        padding: 1rem 0;
+    }
+
+    .benefit-card .benefit-descr {
+        color: var(--rl-grey);
+        line-height: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .benefit-card a {
+        background-color: var(--rl-lightpurple);
+        color: var(--rl-white);
+        text-decoration: none;
+        padding: 5px 24px;
+        border-radius: 15px;
     }
 
 
 /* #endregion benefits */
-
 
 
 @media screen and (min-width: 768px) {
@@ -347,6 +375,10 @@
 
     .col-4-md {
         width: calc(100% /12 *4);
+    }
+
+    .col-6-md {
+        width: calc(100% /12 *6);
     }
 
     .col-7-md {
@@ -372,6 +404,7 @@
     
 }
 
+
 @media screen and (min-width: 1200px) {
 
     .container-lg {
@@ -386,6 +419,10 @@
 
     .d-none-lg {
         display: none;
+    }
+
+    .col-4-lg {
+        width: calc(100% /12 *4);
     }
 
     .col-5-lg {
