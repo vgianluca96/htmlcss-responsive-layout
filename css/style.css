@@ -277,6 +277,10 @@
         line-height: 1.5rem;
      }
 
+     .testimonial-col {
+        padding: 1rem 0;
+     }
+
     .testimonial-card {
         background-color: var(--rl-lightpurple);
         border-radius: 40px;
