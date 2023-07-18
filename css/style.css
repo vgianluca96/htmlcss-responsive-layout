@@ -13,6 +13,7 @@
         --rl-blue: #0084fd;
         --rl-lightblue: #b5ddff;
         --rl-lightpurple: #9792e4;
+        --rl-lightgrey: #cdccf2;
         --rl-grey: #5a6e7f;
         --rl-darkgrey: #333333;
         --rl-orange: #fdc15f;
@@ -425,9 +426,56 @@
 
 /* #region get started */
 
-    .get-started {
+    .get-started-sec {
         background-color: var(--rl-lightpurple);
-        padding: 3rem 0;;
+        padding: 3rem 0;
+    }
+
+    .get-started-cont {
+        color: var(--rl-white);
+        text-align: center;
+        padding: 0 2rem;
+    }
+
+    .get-started {
+        color: var(--rl-lightgrey);
+    }
+
+    .pricing {
+        font-size: 24px;
+        font-weight: bold;
+        padding: 1rem 0;
+    }
+
+    .free {
+        color: var(--rl-orange);
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .beta {
+        padding: 1.5rem 0;
+    }
+
+    .get-started-cont .get-started-link {
+        background-color: var(--rl-white);
+        color: var(--rl-lightpurple);
+        text-decoration: none;
+        display: block;
+        margin: auto;
+        width: 200px;
+        padding: 10px 4px;
+        border-radius: 30px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .copyright {
+        padding-top: 1.5rem;
+    }
+
+    .copyright a {
+        color: var(--rl-white);
     }
 
 
