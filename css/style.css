@@ -47,6 +47,10 @@
         padding: 1rem 0;
     }
 
+    .py-3 {
+        padding: 3rem 0;
+    }
+
     .d-flex {
         display: flex;
     }
@@ -103,6 +107,10 @@
         text-align: center;
     }
 
+    .fs-24 {
+        font-size: 24px;
+    }
+
 /* #endregion Utilities */
 
 
@@ -153,8 +161,8 @@
 
 /* #region Activities */
 
-    .activities {
-        padding: 3rem 0;
+    .col {
+        padding: 1rem;
     }
 
     .card {
@@ -162,15 +170,14 @@
         border-radius: 40px;
         padding: 2rem;
         padding-bottom: 0;
-        margin: 1rem 0;
     }
 
-    .card h2 {
+    .card .card-title {
         color: var(--rl-blue);
         padding: 1.5rem 0;
     }
 
-    .card p {
+    .card .card-descr {
         color: var(--rl-grey);
         padding-bottom: 1.5rem;
         line-height: 1.5rem;
@@ -268,7 +275,6 @@
     }
 
     .testimonial-intro h2 {
-        font-size: 24px;
         color: var(--rl-lightpurple);
         padding: 1rem 0;
      }
@@ -320,7 +326,6 @@
         padding-bottom: 1rem;
         color: var(--rl-white);
         text-align: center;
-        font-size: 24px;
     }
 
     .benefit-col {
@@ -335,13 +340,11 @@
 
     .benefit-card .number {
         color: var(--rl-lightpurple);
-        font-size: 36px;
         font-weight: bold;
     }
 
     .benefit-card .benefit-title {
         color: var(--rl-lightpurple);
-        font-size: 24px;
         font-weight: bold;
         padding: 1rem 0;
     }
@@ -407,7 +410,6 @@
 
     .linkedin-quote {
         line-height: 1.5rem;
-        font-size: 24px;
         font-weight: bold;
         padding: 2rem 0;
     }
@@ -442,14 +444,12 @@
     }
 
     .pricing {
-        font-size: 24px;
         font-weight: bold;
         padding: 1rem 0;
     }
 
     .free {
         color: var(--rl-orange);
-        font-size: 36px;
         font-weight: bold;
     }
 
@@ -466,7 +466,6 @@
         width: 200px;
         padding: 10px 4px;
         border-radius: 30px;
-        font-size: 18px;
         font-weight: bold;
     }
 
@@ -501,8 +500,6 @@
         padding-bottom: 1rem;
     }
 
-
-
 /* #endregion footer */
 
 
@@ -511,10 +508,6 @@
     .container-md {
         width: 90%;
         margin: auto;
-    }
-
-    .col-38-md {
-        width: calc(100% /12 *3.8);
     }
 
     .col-4-md {
@@ -533,8 +526,8 @@
         width: calc(100% /12 *7);
     }
 
-    .col-79-md {
-        width: calc(100% /12 *7.9);
+    .col-8-md {
+        width: calc(100% /12 *8);
     }
 
     .col-10-md {
