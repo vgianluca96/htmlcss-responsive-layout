@@ -442,7 +442,6 @@
     .get-started-cont {
         color: var(--rl-white);
         text-align: center;
-        padding: 0 2rem;
     }
 
     .get-started {
@@ -503,7 +502,8 @@
     }
 
     .footer-lorem {
-        padding-bottom: 1rem;
+        padding: 0 2rem;
+        padding-bottom: 2rem;
     }
 
 /* #endregion footer */
@@ -517,7 +517,7 @@
     }
 
     .container-xmd {
-        width: 75%;
+        width: 65%;
         margin: auto;
     }
 
