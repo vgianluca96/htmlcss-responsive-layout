@@ -20,8 +20,8 @@
     }
 
     body {
-        font-family: sans-serif;
-        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
     }
 
     header {
@@ -163,6 +163,7 @@
 
     .col {
         padding: 1rem;
+        font-size: 12px;
     }
 
     .card {
@@ -193,6 +194,7 @@
         color: var(--rl-white);
         text-decoration: none;
         text-align: center;
+        font-weight: bold;
     }
 
     .card img {
@@ -212,6 +214,7 @@
 
     .planning {
         background-color: var(--rl-lightpurple);
+        font-size: 14px;
     }
 
     .strat-plan-card {
@@ -222,6 +225,10 @@
     .strat-plan-card .strat-title {
         padding-top: 3rem;
         padding-bottom: 2rem;
+    }
+
+    .strat-title {
+        font-size: 18px;
     }
 
     .strat-plan-card .strat-descr {
@@ -316,6 +323,7 @@
 
     .benefits {
         background-color: var(--rl-lightpurple);
+        font-size: 14px;
     }
 
     .benefit-intro {
@@ -360,6 +368,7 @@
         text-decoration: none;
         padding: 5px 24px;
         border-radius: 15px;
+        font-weight: bold;
     }
 
 /* #endregion benefits */
@@ -378,7 +387,7 @@
 
     .about-us .about-descr {
         padding: 1rem 0;
-        line-height: 1.5rem;
+        line-height: 2rem;
     }
 
     .linkedin {
@@ -405,9 +414,10 @@
     }
 
     .linkedin-quote {
-        line-height: 1.5rem;
+        line-height: 2rem;
         font-weight: bold;
         padding: 2rem 0;
+        font-size: 20px;
     }
 
     .linkedin a {
@@ -426,6 +436,7 @@
 
     .get-started-sec {
         background-color: var(--rl-lightpurple);
+        font-size: 12px;
     }
 
     .get-started-cont {
@@ -436,22 +447,23 @@
 
     .get-started {
         color: var(--rl-lightgrey);
+        font-size: 18px;
     }
 
     .pricing {
         font-weight: bold;
         padding: 1rem 0;
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .free {
         color: var(--rl-orange);
         font-weight: bold;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .beta {
-        padding: 1.5rem 20%;
+        padding: 1.5rem 0;
     }
 
     .get-started-cont .get-started-link {
@@ -483,10 +495,7 @@
         color: var(--rl-white);
         padding: 3rem 0;
         text-align: center;
-    }
-
-    footer div {
-        padding: 0 10%;
+        font-size: 12px;
     }
 
     footer a {
@@ -504,6 +513,11 @@
 
     .container-md {
         width: 90%;
+        margin: auto;
+    }
+
+    .container-xmd {
+        width: 75%;
         margin: auto;
     }
 
@@ -555,12 +569,12 @@
         font-size: 20px;
     }
 
-    .fs-28-md {
-        font-size: 28px;
+    .fs-32-md {
+        font-size: 32px;
     }
 
-    .fs-36-md {
-        font-size: 36px;
+    .fs-56-md {
+        font-size: 56px;
     }
     
 }
